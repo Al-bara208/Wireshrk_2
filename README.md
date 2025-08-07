@@ -28,8 +28,8 @@ DHCP
 من خلال فحص أعمدة source IP وتفاصيل البروتوكولات، تمكنت من استخراج معلومات الجهاز المصاب:
 
 المؤشر و القيمة
-عنوان IP للجهاز المصاب	: 192.168.137.83
-عنوان MAC للجهاز المصاب : 	7a (00:21:9b:5b:d1:7a) (الجزء الظاهر: ac:97:df)
+عنوان IP للجهاز المصاب	: 10.6.13.133
+عنوان MAC للجهاز المصاب : ac:97:df (24:77:03:ac:97:df)
 اسم المضيف : (GET)	event-time-microsoft.org
 اسم المضيف : (POST)	eventdata-microsoft.live
 اسم حساب المستخدم	: Microsoft-CryptoAPI
@@ -86,8 +86,8 @@ While inspecting HTTP packets, I came across a suspicious URL that stood out due
 By examining the packet source fields and DNS queries, I was able to gather the following information about the infected Windows client:
 
 Indicator and	Value
-IP Address :	192.168.137.83
-MAC Address	: 7a (00:21:9b:5b:d1:7a)
+IP Address :	10.6.13.133
+MAC Address	:ac:97:df (24:77:03:ac:97:df)
 Hostname : (GET packet)	event-time-microsoft.org
 Hostname : (POST packet)	eventdata-microsoft.live
 User Account Name	: Microsoft-CryptoAPI
